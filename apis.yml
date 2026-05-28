@@ -1,0 +1,32 @@
+aid: quarantine
+name: Quarantine
+description: "Coronavirus API with free COVID-19 live updates"
+url: https://quarantine.country/coronavirus/api/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Health"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Health
+  - Public APIs
+apis:
+  - name: Quarantine
+    description: "Coronavirus API with free COVID-19 live updates"
+    humanURL: https://quarantine.country/coronavirus/api/
+    baseURL: https://quarantine.country/coronavirus/api/
+    tags:
+      - Health
+    properties:
+      - type: Documentation
+        url: https://quarantine.country/coronavirus/api/
+common:
+  - type: Website
+    url: https://quarantine.country/coronavirus/api/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
